@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Filter Gallery</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.filter{animation: winanim 0.5s ;}
+@keyframes winanim {
+    0%{opacity:0;transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+    
+}
+
+.out{animation: winanimout 0.5s ;}
+@keyframes winanimout {
+    0%{opacity:1;transform:scale3d(.3,.3,.3)}
+    50%{opacity:0}
+    
+}
+
+.filter-button.active{
+background-color:#F39;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+<div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-12">
+            <h1 class="gallery-title">Gallery</h1>
+        </div>
+
+        <div align="center col-12 col-md-12">
+            <button class="btn btn-default filter-button active" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+        </div>
+      
+</div>
+
+<div class="row">            
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter sprinkle">
+                <img src="https://placehold.it/500/eeeeee&text=2" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter hdpe">
+                <img src="https://placehold.it/500/eeeeee&text=1" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter irrigation">
+                <img src="https://placehold.it/500/eeeeee&text=4" class="img-fluid">
+            </div>
+            
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter hdpe">
+                <img src="https://placehold.it/500/eeeeee&text=1" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter spray">
+                <img src="https://placehold.it/500/eeeeee&text=3" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter irrigation">
+                <img src="https://placehold.it/500/eeeeee&text=4" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter spray">
+                <img src="https://placehold.it/500/eeeeee&text=3" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter irrigation">
+                <img src="https://placehold.it/500/eeeeee&text=4" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter irrigation">
+                <img src="https://placehold.it/500/eeeeee&text=4" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter hdpe">
+                <img src="https://placehold.it/500/eeeeee&text=1" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter spray">
+                <img src="https://placehold.it/500/eeeeee&text=3" class="img-fluid">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter sprinkle">
+                <img src="https://placehold.it/500/eeeeee&text=2" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+			setTimeout(function(){ 			
+			$('.filter').removeClass("d-none");			
+			},100)
+            
+        }
+		
+        else
+        {
+//          $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//          $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+			//$(".filter").not('.'+value).addClass('out');
+			setTimeout(function(){ 
+            $(".filter").not('.'+value).addClass('d-none');},100)
+			setTimeout(function(){ 
+            $('.filter').filter('.'+value).removeClass('d-none');},100)
+			
+            
+        }
+    });
+
+
+/*$(".filter-button").on("click", function(){	 
+if($(".filter-button").hasClass("active")) {	
+$(".filter-button").removeClass("active");
+}
+else
+$(".filter-button").addClass("active");
+});*/
+
+$('.filter-button').on('click', function() {
+    $('.filter-button.active').removeClass('active');
+    $(this).addClass('active');
+});
+
+});
+</script>
+</body>
+</html>
