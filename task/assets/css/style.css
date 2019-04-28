@@ -340,16 +340,15 @@ a.base-btn:focus,
   right: 0;
   height: 100%;
   width: 45%;
-  opacity: 0.30;
   transition: .5s ease;
-  background-color: #2a0000;
+  background-color: rgba(42, 0, 0, 0.3);
 }
 
 
 .overlay-creative-text {
   position: absolute;
   top: 50%;
-  right: 25%;
+  left: 21%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
