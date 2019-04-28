@@ -44,7 +44,7 @@
 /*----------------------------------
  Reset the elements in all browsers
 ---------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+
 html{width: 100%;}
 body{font-size: initial; line-height: normal; height: auto;  margin: 0;	padding: 0;	border: 0; font-family: 'Poppins', sans-serif; color: #2a2d2e; text-rendering: optimizeLegibility; }
 
