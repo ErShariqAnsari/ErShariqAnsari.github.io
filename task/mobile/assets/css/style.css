@@ -23,14 +23,21 @@ html,body,h1,h2,h3,h4,h5,h6,p{
 }
 
 
+@media(min-width:240px){
 .wrapper{
 	position:relative;
-	width:320px;
+	width:auto;
 	margin-left:auto;
 	margin-right:auto;
 	background: #ffffff;
 	height:auto;
 	overflow:hidden;
+}
+}
+@media(min-width:768px){
+.wrapper{
+	width:320px;
+}
 }
 
 
