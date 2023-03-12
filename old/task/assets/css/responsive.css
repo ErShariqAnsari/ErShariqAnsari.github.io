@@ -1,0 +1,436 @@
+						/*--------------------------------------------------
+						/				   Responsive CSS                  /
+						-------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------
+        For Mobile 
+---------------------------------*/
+@media (min-width: 240px){
+	
+/***********************
+ 	Section 1 css	
+***********************/
+a.base-btn,.base-btn{
+	padding:15px 40px;
+}
+.hero-header{
+	padding:80px 0 100px;
+}
+#renoslider .carousel-indicators{
+	bottom: -40px;
+}
+#renoslider .carousel-inner{margin-top: 15px;}
+.scroll-down{
+	position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+#renoslider .carousel-inner .carousel-item h1{
+	font-size: 45px;
+}	
+#renoslider .carousel-inner .carousel-item p{
+	font-size: 20px;	
+}
+.custom-left-right{
+	top: calc(50% - 20px);
+	bottom: inherit; 
+	width: 25px;
+	height: 25px;
+	display:none;
+}
+.hero-header .menu-position{
+	position:absolute;
+	top:15px;
+	padding:0 15px;
+}
+
+
+/***********************
+ 	Section 2 css	
+***********************/
+
+.intro-section{padding: 40px 0;}
+.headwith-para h1{
+	font-size: 30px;
+}
+.headwith-para p{
+	font-size: 14px;
+}
+.intro-section .headwith-para p{
+	margin-top: 15px;
+}
+.overlay-creative-text h1{
+	font-size: 30px;
+}
+.intro-section .headwith-para + .col-12.col-md-6.col-xl-6.offset-xl-1{
+	padding-right: 15px;
+	margin-top: 30px;
+}
+.shape:before,
+.shape:after{
+	content:'';
+	width:25px;
+	height:25px;
+	background:#ffffff;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+	z-index:9;
+}
+.shape:before{
+    bottom: 25px !important;
+    right: 25px !important;
+}
+
+
+/***********************
+ 	Section 4 css	
+***********************/
+.plantable{padding:60px 0;}
+.plantable .planhover h3{
+	font-size: 18px;
+	margin-top: 15px;
+}
+.plantable .container .row:nth-child(2){
+	margin-top: 50px;
+}
+ul.planli{
+	margin-top: 15px;
+}
+.planhover{margin-bottom:50px;}
+
+/***********************
+ 	Section 5 css	
+***********************/
+.overlay-blog-text h3{
+	font-size: 18px;
+	margin-top: 5px;
+}
+.overlay-blog-text h3 + p{
+	margin-top: 10px
+}
+
+
+/***********************
+ 	Section 6 css	
+***********************/
+.social-nav .social-icon a{
+	height: 200px;
+	border-bottom: 1px solid #cccccc;
+	text-decoration: none;
+	color: #ffffff;
+	font-size:30px;
+	transition: ease 1s all;
+}
+.social-nav .social-icon a p{
+	font-size:14px;
+	font-weight:400;
+	line-height:150%;
+}
+
+/***********************
+ 	Section 7 css	
+***********************/
+.subscribers{padding:40px 0;}
+.subscribers p{margin-top: 10px;}
+.form-input{margin-top: 30px;}
+.form-input form .input-group{margin-top: 15px;}
+}
+
+
+/*---------------------------------
+        For Tablate 
+---------------------------------*/
+@media (min-width: 768px){
+/***********************
+ 	Section 1 css	
+***********************/
+#renoslider .carousel-inner{
+	margin-top: 0px;
+}
+#renoslider .carousel-inner .carousel-item h1{
+	font-size: 60px;
+}
+#renoslider .carousel-inner .carousel-item p{
+	font-size: 25px;	
+}
+.custom-left-right{
+	top: calc(50% - 40px);
+	width: 50px;
+	height: 50px;
+	bottom: inherit;
+	color: #ffffff;
+	text-align: center;
+	opacity: 1; 
+	background: transparent;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	display: flex;
+}
+
+
+/***********************
+ 	Section 2 css	
+***********************/
+.headwith-para h1{
+	font-size: 40px;
+}
+.headwith-para p{
+	font-size: 16px;
+}
+.intro-section .headwith-para p{
+	margin-top: 30px;
+}	
+.overlay-creative-text h1{
+	font-size: 40px;
+}
+.overlay-creative-text h1 span{
+	font-size: 35px;
+}
+.intro-section .headwith-para + .col-12.col-md-6.col-xl-6.offset-xl-1{
+	padding-right: 0;
+	margin-top: 0px;
+}
+.shape:before,
+.shape:after{
+	content:'';
+	width:50px;
+	height:50px;
+}
+.shape:before{
+    bottom: 50px !important;
+    right: 50px !important;
+}	
+
+
+/***********************
+ 	Section 4 css	
+***********************/
+.plantable .planhover h3{
+	font-size: 20px;
+}
+.plantable .container .row:nth-child(2){
+	margin-top: 60px;
+}	
+ul.planli{
+	margin-top: 30px;
+}
+.planhover{margin-bottom:0px;}
+
+/***********************
+ 	Section 5 css	
+***********************/
+.overlay-blog-text h3{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.overlay-blog-text h3 + p{
+	margin-top: 15px
+}
+
+
+/***********************
+ 	Section 6 css	
+***********************/
+.social-nav .social-icon a{
+	height: 150px;
+	border-bottom: inherit;
+	border-right: 1px solid #cccccc;
+}
+.social-nav .social-icon a p{
+	font-size:12px;
+}
+
+/***********************
+ 	Section 7 css	
+***********************/
+.subscribers p{margin-top: 15px;}
+.form-input{margin-top: 0px;}
+.form-input form .input-group{margin-top: 30px;}
+}
+
+
+/*---------------------------------
+        For Small laptop 
+---------------------------------*/
+@media (min-width: 992px){
+/***********************
+ 	Section 1 css	
+***********************/
+a.base-btn,.base-btn{
+	padding:20px 50px;
+}	
+.hero-header{
+	padding:150px 0;
+}	
+#renoslider .carousel-indicators{
+	bottom: -60px;
+}
+.scroll-down{
+    bottom: 25px;
+}
+#renoslider .carousel-inner .carousel-item h1{
+	font-size: 80px;
+}
+#renoslider .carousel-inner .carousel-item p{
+	font-size: 30px;	
+}
+.hero-header .menu-position{
+	top:35px;
+	padding:0 30px;
+
+}	
+
+
+
+/***********************
+ 	Section 2 css	
+***********************/
+.headwith-para h1{
+	font-size: 60px;
+}
+.overlay-creative-text h1{
+	font-size: 60px;
+}
+.overlay-creative-text h1 span{
+	font-size: 50px;
+}
+.overlay-creative-text h1 span{
+	font-size: 70px;
+}
+.intro-section{
+	padding: 100px 0;
+}
+
+
+/***********************
+ 	Section 4 css	
+***********************/
+.plantable{padding:80px 0;}	
+.plantable .planhover h3{
+	font-size: 24px;
+}
+.plantable .container .row:nth-child(2){
+	margin-top: 80px;
+}
+
+
+/***********************
+ 	Section 5 css	
+***********************/
+.overlay-blog-text h3{
+	font-size: 24px;
+}
+
+/***********************
+ 	Section 7 css	
+***********************/
+.subscribers{padding:60px 0;}	
+}
+
+
+/*---------------------------------
+        For large PC and Laptop
+---------------------------------*/
+@media (min-width: 1200px){
+/***********************
+ 	Section 1 css	
+***********************/
+.hero-header{
+	padding:250px 0;
+}	
+#renoslider .carousel-inner .carousel-item h1{
+	font-size: 100px;
+}
+
+
+/***********************
+ 	Section 2 css	
+***********************/
+.shape:before,
+.shape:after{
+	width:75px;
+	height:75px;
+}
+.shape:before{
+    bottom: 75px !important;
+    right: 75px !important;
+}	
+.shape-grad:before,
+.shape-grad:after{
+	content:'';
+background: rgb(176,235,233);
+background: -moz-linear-gradient(left, rgba(176,235,233,1) 0%, rgba(248,216,227,1) 100%);
+background: -webkit-linear-gradient(left, rgba(176,235,233,1) 0%,rgba(248,216,227,1) 100%);
+background: linear-gradient(to right, rgba(176,235,233,1) 0%,rgba(248,216,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ebe9', endColorstr='#f8d8e3',GradientType=1 );
+	width:100px;
+	height:75px;
+	position: absolute;
+    top: 0;
+    right: 0;
+	z-index:9;
+}
+.shape-grad:after{
+	top: 75px;
+    right: 100px;
+	width:80px;
+	height:45px;
+}
+.shape-grad-pos{
+	position:relative;
+	top:70px;
+}
+.hrline:before,
+.hrline:after{
+	content:'';
+	width:75px;
+	height:2px;
+	background:#ffffff;
+	position: absolute;
+    bottom: -36px;
+	right: calc(100px - 75px);
+	z-index:9;
+}
+.hrline:after{
+	width:50px;
+    bottom: -25px;
+	right: calc(100px - 25px);
+	z-index:9;
+}
+.overlay-creative-text h1{
+	font-size: 80px;
+}
+.overlay-creative-text h1 span{
+	font-size: 100px;
+}
+
+/***********************
+ 	Section 4 css	
+***********************/
+.plantable{padding:100px 0;}
+
+
+/***********************
+ 	Section 6 css	
+***********************/
+.social-nav .social-icon a{
+	height: 200px;
+}
+.social-nav .social-icon a p{
+	font-size:14px;
+}
+
+/***********************
+ 	Section 7 css	
+***********************/
+.subscribers{padding:80px 0;}
+}
