@@ -32,11 +32,13 @@ ul {
   margin-bottom: 0.5rem;
 }
 
-.heading_lines .hrr h5 {
+.heading_lines .hrr h5,
+.heading_lines .hrr h4 {
   position: relative;
 }
 
-.heading_lines .hrr h5::before {
+.heading_lines .hrr h5::before,
+.heading_lines .hrr h4::before {
   content: "";
   position: absolute;
   top: 50%;
