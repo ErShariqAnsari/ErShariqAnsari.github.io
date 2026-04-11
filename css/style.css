@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html,
@@ -32,11 +32,11 @@ ul {
   margin-bottom: 0.5rem;
 }
 
-.heading_lines .hrr h4 {
+.heading_lines .hrr h5 {
   position: relative;
 }
 
-.heading_lines .hrr h4::before {
+.heading_lines .hrr h5::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -44,7 +44,6 @@ ul {
   height: 2px;
   width: 30px;
   background: #000;
-
 }
 
 .role_desc_list {
@@ -55,7 +54,6 @@ ul {
 .role_desc_list li {
   margin-bottom: 0.5rem;
   list-style: circle;
-
 }
 
 .darkblue_bg {
@@ -64,4 +62,12 @@ ul {
 
 .darkblue_clr {
   color: #2b5798;
+}
+
+.work-experience figure {
+  margin: 0;
+  padding: 0;
+}
+.work-experience figure blockquote {
+  font-size: 1rem;
 }
